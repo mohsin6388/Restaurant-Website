@@ -8,7 +8,7 @@ export const AppContextProvider = ({ children }) => {
   const [userData, setUserData] = useState(null);
   const [userDataLoader, setUserDataLoader] = useState(false);
 
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://restaurant-website-backend-xgj4.onrender.com";
 
   const fetchUserData = async () => {
     setUserDataLoader(true);
